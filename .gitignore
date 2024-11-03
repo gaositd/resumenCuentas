@@ -215,4 +215,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# this folder not need it upload to github
+borrar/
+borrar/dump-u492244081_administracion-202409071334.sql
+borrar/Estado de Resultados_Grupo_Alcance_Laguna.xlsx
+
 # End of https://www.toptal.com/developers/gitignore/api/linux,windows,macos,node
