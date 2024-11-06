@@ -21,6 +21,11 @@ router.get('/ByLastName', (req, res, next) => {
   return;
 });
 
+router.post('/newProveedor', (req, res, next) => {
+  res.send('New User (body method) NOT USE');
+  return;
+});
+
 router.put('/:id', (req, res, next) => {
   res.send("proveedores OK PUT");
   return;

@@ -11,6 +11,11 @@ router.get('/:id', (req, res, next) => {
   return;
 });
 
+router.post('/newGCosto', (req, res, next) => {
+  res.send('New expend Cost (body method)');
+  return;
+});
+
 router.put('/:id', (req, res, next) => {
   res.send(" costos OK PUT");
   return;

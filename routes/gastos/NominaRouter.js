@@ -11,6 +11,11 @@ router.get('/:id', (req, res, next) => {
   return;
 });
 
+router.post('/newGNomina', (req, res, next) => {
+  res.send('New Pay Salary (body method)');
+  return;
+});
+
 router.put('/:id', (req, res, next) => {
   res.send(" nomina OK PUT");
   return;

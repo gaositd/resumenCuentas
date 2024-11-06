@@ -11,6 +11,11 @@ router.get('/:id', (req, res, next) => {
   return;
 });
 
+router.post('/newGOperativo', (req, res, next) => {
+  res.send('New Opertive (body method)');
+  return;
+});
+
 router.put('/:id', (req, res, next) => {
   res.send("gastos OK PUT");
   return;
