@@ -11,6 +11,11 @@ router.get('/:id', (req, res, next) => {
   return;
 });
 
+router.post('/newGOficina', (req, res, next) => {
+  res.send('New Office (body method)');
+  return;
+});
+
 router.put('/:id', (req, res, next) => {
   res.send(" oficina OK PUT");
   return;
